@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from words.views import process_alphabets
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', process_alphabets),
 ]
