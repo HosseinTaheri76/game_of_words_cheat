@@ -1,7 +1,9 @@
 import itertools
 
+
 def get_alphabets():
     alphabets = []
+
 
 scope = ['آ', 'س', 'ا', 'ب', 'ی', 'غ', 'ژ', 'ر']
 length = len(scope)
